@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <div class="wrapper" id="main-wrapper">
+            <div class="header">
+                <p class="title">
+                    To-Dos
+                </p>
+            </div>
+            <div class="button-bg">
+                <button class="new-button" id="add-button" onclick="showInput()">
+                    <i class="fa fa-plus"></i> 
+                </button>
+            </div>
+            <ul class="list-wrapper">
+            </ul>
+            
+        </div>
+        <div class="input-wrapper" id="input">
+            <i class="fa fa-close" id="close-input" onclick="hideInput()"></i>
+            <p class="input-title">New To-Do</p>
+            <input id="user-input" class="input-field" maxlength="27" type="text"></input>
+            <button class='input-button' id="input-button" onclick="addListAfterClick()">OK</button>
+        </div>
+        <script src="scripts/app.js"></script>
+
+    </body>
+</html>

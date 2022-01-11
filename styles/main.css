@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+.wrapper{
+    background-color: #2C272E;
+    border-radius: 30px;
+    width: 350px;
+    height: 600px;
+    overflow: hidden;
+}
+.header{
+    background-color: #FFCE45;
+    width: 528px;
+    height: 276px;    
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    left: -131px;
+    top: -156px;
+}
+.title{
+    font-family: Poppins;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    left: 154px;
+    color: #FDEAB5;
+}
+.button-bg{
+    background-color: #2C272E;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    position: absolute;
+    left: 152px;
+    top: 97px;
+}
+.new-button{
+    background-color: #FFCE45;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position:absolute;
+    border: none;
+    text-decoration: none;
+    top: 5.5px;
+    left: 5.25px;
+    font-size: 25px;
+    color: #2C272E;
+
+}
+.list-wrapper{
+    background-color: transparent;
+    width: 305px;
+    height: 420px;
+    border-radius: 10px;  
+    position: relative; 
+    top: -140px;
+    overflow-y: scroll;
+    list-style-type: none;
+   
+}
+::-webkit-scrollbar {
+    width: 4px;
+    position: relative;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FDEAB5;
+    border-radius: 2px;
+}
+
+li{
+    width: 320px;
+    height: 60px;
+    background-color: #FDEAB5;
+    border-radius: 10px;
+    position: relative;
+    left: -30px;
+    margin-bottom: 5px;
+    
+}
+.work{
+    display: inline-block;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #2C272E;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    left: 60px;
+    top: 6px;
+}
+.input-wrapper{
+    background-color: #2C272E;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    filter: drop-shadow(5px 5px 10px #000);
+    align-content: center;
+    color: #FDEAB5;
+    font-size: 20px;
+    display: none;
+}
+.input-title{
+    font-family: Poppins;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+    position: absolute;
+    color:#FDEAB5;
+    position: relative;
+    text-align: center;
+    top: 0px;
+}
+.input-field{
+    width: 250px;
+    height: 30px;
+    background-color: #FDEAB5;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 22px;
+    top: -15px;
+    color: #2C272E;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.input-button{
+    background-color: #FFCE45;
+    color: #2C272E;
+    width: 80px;
+    height: 40px;
+    border: none;
+    position: relative;
+    left: 110px;
+}
+#close-input{
+    position: absolute;
+    top: 10px;
+    left: 270px;
+}
+.show{
+    display: block;
+}
+.blur{
+    filter: blur(2px);
+}
+.delete {
+	display: none;
+}

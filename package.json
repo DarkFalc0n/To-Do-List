@@ -1,0 +1,29 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "A simple To-Do-List for destop",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkFalc0n/To-Do-List.git"
+  },
+  "author": "Pratyay Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkFalc0n/To-Do-List/issues"
+  },
+  "homepage": "https://github.com/DarkFalc0n/To-Do-List#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "electron": "^16.0.6",
+    "electron-builder": "^22.14.5"
+  },
+  "dependencies": {
+    
+  }
+}
