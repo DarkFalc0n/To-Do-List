@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder --win"
+    "build": "electron-builder --win --mac --linux",
+    "build:linux": "electron-builder --linux",
+    "build:mac": "electron-builder --mac",
+    "build:win": "electron-builder --win",
+    "release:linux": "electron-builder --linux -p always -c.snap.publish=github",
+    "release:mac": "electron-builder --mac -p always",
+    "release:win": "electron-builder --win -p always"
   },
   "repository": {
     "type": "git",
