@@ -107,6 +107,8 @@ li{
     color: #FDEAB5;
     font-size: 20px;
     display: none;
+    animation-duration: 0.2s;
+    animation-name: zoom-in;
 }
 .input-title{
     font-family: Poppins;
@@ -143,6 +145,10 @@ li{
     position: relative;
     left: 110px;
 }
+.input-button:active{
+    transform: scale(0.95);
+}
+
 #close-input{
     position: absolute;
     top: 10px;
@@ -156,4 +162,13 @@ li{
 }
 .delete {
 	display: none;
+}
+
+@keyframes zoom-in{
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform: scale(1);
+    }
 }
